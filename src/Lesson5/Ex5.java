@@ -19,23 +19,23 @@ public class Ex5 {
         for (int i = 0; i < firstMas.length ; i++) {
             if (i == firstMas.length-1) {
                 System.out.println(firstMas[i]);
-                break;
-            }
+            } else {
                 System.out.print(firstMas[i] + ", ");
+            }
         }
         for (int z = 0; z < second.length ; z++) {
             if (z == second.length-1) {
                 System.out.println(second[z]);
-                break;
+            } else {
+                System.out.print(second[z] + ", ");
             }
-            System.out.print(second[z] + ", ");
         }
         for (int j = 0; j < third.length ; j++) {
             if (j == third.length-1) {
                 System.out.println(third[j]);
-                break;
+            } else {
+                System.out.print(third[j] + ", ");
             }
-            System.out.print(third[j]+ ", ");
         }
 
     // Task3
@@ -45,23 +45,24 @@ public class Ex5 {
         for (int i = firstMas.length-1; i >= 0 ; i--) {
             if (i == 0) {
                 System.out.println(firstMas[i]);
-                break;
+            } else {
+                System.out.print(firstMas[i] + ", ");
             }
-            System.out.print(firstMas[i] + ", ");
         }
         for (int z = second.length-1; z >= 0 ; z--) {
             if (z == 0) {
                 System.out.println(second[z]);
-                break;
+            } else {
+                System.out.print(second[z] + ", ");
             }
-            System.out.print(second[z] + ", ");
         }
         for (int j = third.length-1; j >= 0 ; j--) {
             if (j == 0) {
                 System.out.println(third[j]);
-                break;
+
+            } else {
+                System.out.print(third[j] + ", ");
             }
-            System.out.print(third[j]+ ", ");
         }
 
     // Task4
