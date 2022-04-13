@@ -2,39 +2,39 @@ package HighTask;
 
 public class Variables {
     public static void main(String[] args) {
-//        // Task 6
-//        System.out.println("Task6");
-//
-//        int age = 23;
-//        int salary = 58_000;
-//        int limit;
-//        if (age >= 23) {
-//            limit = salary * 3;
-//
-//            if (salary >= 50_000) {
-//                limit *= 1.2;
-//                System.out.println("Мы готовы выдать вам кредитную карту с лимитом " + limit + " рублей");
-//            } else if (salary >= 80_000) {
-//                limit *= 1.5;
-//                System.out.println("Мы готовы выдать вам кредитную карту с лимитом " + limit + " рублей");
-//            } else {
-//                System.out.println("Мы готовы выдать вам кредитную карту с лимитом " + limit + " рублей");
-//            }
-//
-//        } else if (age >= 16 && age < 23) {
-//            limit = salary * 2;
-//            if (salary >= 50_000) {
-//                limit *= 1.2;
-//                System.out.println("Мы готовы выдать вам кредитную карту с лимитом " + limit + " рублей");
-//            } else if (salary >= 80_000) {
-//                limit *= 1.5;
-//                System.out.println("Мы готовы выдать вам кредитную карту с лимитом " + limit + " рублей");
-//            } else {
-//                System.out.println("Мы готовы выдать вам кредитную карту с лимитом " + limit + " рублей");
-//            }
-//        } else {
-//            System.out.println("Для вашего возраста нет предложений");
-//        }
+        // Task 6
+        System.out.println("Task6");
+
+        int age = 23;
+        int salary = 58_000;
+        int limit;
+        if (age >= 23) {
+            limit = salary * 3;
+
+            if (salary >= 50_000) {
+                limit *= 1.2;
+                System.out.println("Мы готовы выдать вам кредитную карту с лимитом " + limit + " рублей");
+            } else if (salary >= 80_000) {
+                limit *= 1.5;
+                System.out.println("Мы готовы выдать вам кредитную карту с лимитом " + limit + " рублей");
+            } else {
+                System.out.println("Мы готовы выдать вам кредитную карту с лимитом " + limit + " рублей");
+            }
+
+        } else if (age >= 16 && age < 23) {
+            limit = salary * 2;
+            if (salary >= 50_000) {
+                limit *= 1.2;
+                System.out.println("Мы готовы выдать вам кредитную карту с лимитом " + limit + " рублей");
+            } else if (salary >= 80_000) {
+                limit *= 1.5;
+                System.out.println("Мы готовы выдать вам кредитную карту с лимитом " + limit + " рублей");
+            } else {
+                System.out.println("Мы готовы выдать вам кредитную карту с лимитом " + limit + " рублей");
+            }
+        } else {
+            System.out.println("Для вашего возраста нет предложений");
+        }
 
         //Task 7
         System.out.println();
