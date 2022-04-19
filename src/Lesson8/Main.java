@@ -16,34 +16,27 @@ public class Main {
     public static void versionCheck (int system, int yearOfIssue) {
         int currentYear = LocalDate.now().getYear();
         // 0 — iOS или 1 — Android
-        if (system == 1) {
-            if (yearOfIssue < currentYear) {
-                System.out.println("Установите облегченную версию приложения для Android по ссылке");
-            } else {
+        if (system == 1 && yearOfIssue < currentYear) {
+         System.out.println("Установите облегченную версию приложения для Android по ссылке");
+            } else if (system == 1 && yearOfIssue >= currentYear){
                 System.out.println("Установите версию приложения для Android по ссылке");
-            }
-        } else if (system == 0) {
-            if (yearOfIssue < currentYear) {
+        } if (system == 0 && yearOfIssue < currentYear) {
                 System.out.println("Установите облегченную версию приложения для iOS по ссылке");
-            } else {
+            } else if (system == 0 && yearOfIssue >= currentYear) {
                 System.out.println("Установите версию приложения для iOS по ссылке");
-            }
         }
     }
 
     public static void daysForDeliveryCheck (int deliveryDistance) {
         int days = 1;
         if (deliveryDistance < 20){
-            System.out.println("Потребуется дней: " + days);
         } else if (deliveryDistance >= 20 && deliveryDistance < 60) {
             days += 1;
-            System.out.println("Потребуется дней: " + days);
         } else if (deliveryDistance >= 60 && deliveryDistance < 100) {
             days += 2;
-            System.out.println("Потребуется дней: " + days);
         } else {
             System.out.println("Доставки на такое расстояние не предусмотрено");
-        }
+        } System.out.println("Потребуется дней: " + days);
     }
 
     public static void doubleSymbolCheck (String line) {
